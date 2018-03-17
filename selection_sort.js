@@ -1,3 +1,5 @@
+// O(n^2)
+
 function findSmallest(arr) {
   let smallest = arr[0]; // Stores the smallest value
   let smallest_i = 0; // Stores the index of the smallest value

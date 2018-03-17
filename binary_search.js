@@ -1,3 +1,4 @@
+// O(log n)
 
 function binary_search(arr, item) {
   let low = 0;
