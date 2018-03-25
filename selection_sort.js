@@ -1,4 +1,6 @@
-// O(n^2)
+/**
+ * O(n^2)
+ */
 
 function findSmallest(arr) {
   let smallest = arr[0]; // Stores the smallest value
