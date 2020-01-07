@@ -1,4 +1,5 @@
 /**
+ * Bubble sort
  * O(n^2) - average run time
  * O(n^2) - worst run time
  */
