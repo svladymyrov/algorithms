@@ -7,7 +7,7 @@ function binary_search(arr, item) {
   let high = arr.length - 1;
 
   while (low <= high) {
-    let mid = Math.floor((low + high) / 2);
+    const mid = Math.floor((low + high) / 2);
     const guess = arr[mid];
 
     if (guess === item) { return mid; }

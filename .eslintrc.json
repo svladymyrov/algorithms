@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "linebreak-style": "off"
+  }
+}
