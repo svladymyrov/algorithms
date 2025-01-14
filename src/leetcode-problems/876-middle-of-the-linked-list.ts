@@ -41,3 +41,14 @@ export function middleNode(head: ListNode | null): ListNode | null {
     ? nodes[nodes.length / 2]
     : nodes[(nodes.length - 1) / 2];
 }
+
+// https://leetcode.com/problems/middle-of-the-linked-list/solutions/1651600/python-java-c-simple-solution-one-pass-beginner-friendly-detailed-explanation/
+export function middleNodeWithPointers(head: ListNode | null): ListNode | null {
+  let slow: ListNode | null = head;
+  let fast: ListNode | null = head;
+  while (fast !== null && fast.next !== null) {
+    slow = slow!.next;
+    fast = fast.next.next;
+  }
+  return slow;
+}
